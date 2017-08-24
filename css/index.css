@@ -1,0 +1,196 @@
+/*banner区*/
+#banner{
+	position: relative;
+	width:  1198px;
+	padding:2px 26px;
+	height: 424px;
+	clear: both;
+}
+#banner img{
+	position:absolute;
+	height: 404px;
+	width: 1198px;
+	margin-top: 20px;
+}
+#control{
+	position:absolute;
+	top: 408px;
+	width:  1198px;
+	height: 20px;
+	background: rgba(0,0,0,0.5);
+	z-index: 1964;
+}
+#control ul{
+	margin: 5px 42%;
+}
+#control ul li{
+	width: 5px;
+	height: 5px;
+	border: 2px solid transparent;
+	 border-radius: 5px;
+	 background: white;
+	 margin-right: 10px;
+	 cursor: pointer;
+}
+#history{
+	width: 1258px;
+	height: 439px;
+	clear:both ;
+	margin:10px auto;
+}
+.box{
+	overflow: hidden;
+	width: 658px;
+	height: 437px;
+    float: left
+}
+#content{
+	width: 1258px;
+	margin:0 auto;
+	overflow: hidden;
+	height: 2680px;
+}
+#content ul{
+	overflow: hidden;
+	padding: 0px;
+}
+#content ul li{
+	margin-right: 0px;
+	overflow: hidden;
+}
+#content .con1{
+	width: 285px;
+	height: 285px;
+	margin-left: 80px;
+	margin-right: 45px;
+	margin-top: 30px;
+	
+}
+#content .con1 img{
+	width: 100%;
+	height: 100%;
+}
+#content .con2{
+	margin-top: 20px;
+	width: 403px;
+	height: 255px;
+	}
+#content .con2 img{
+	width: 100%;
+	height: 100%;
+}
+#content .con3 img{
+	margin-top: 10px;
+	width: 390px;
+	height: 184px;
+}
+#content .con3{
+	margin-left: 12px;
+	margin-right: 12px;
+}
+#content .con4{
+	width: 360px;
+	height: 427px;
+	position: relative;
+	bottom: 258px;
+	float: left;
+	margin-left: 12px;
+}
+#content .con4 img{
+	margin: 0 auto;
+}
+.clear{
+	clear:both;
+	float: left;
+}
+.con5{
+	clear: both;
+	width: 1139px;
+	
+	float: left;
+	position: relative;
+	bottom: 243px;
+}
+.con5 img{
+	width: 1100px;
+	margin-left: 55px;
+	margin-top: 30px;
+}
+.con5 ul{
+	width: 1240px;
+}
+.con5 ul li:nth-child(1){
+	margin-top: 100px;
+}
+.con5 ul li{
+	float: left;
+	width: 616px;
+	line-height: 35px;
+	font-size: 1.4rem;
+	font-family: "微软雅黑";
+	
+}
+.con5 ul li img{
+	width: 540px;
+}
+.con5 .con2 img{
+	width: 430px;
+	height: 262px;
+}
+#show{
+	width: 1260px;
+	margin-top: 20px;
+}
+#show div{
+	float: left;
+	margin-top: 15px;
+}
+#show img{
+	margin:0 ;
+}
+#show li{
+	margin-top: 0;
+}
+#show .show_left{
+	margin-left: 15px;
+	width: 422.83px;
+}
+#show .show_left img{
+	width: 422.83px;
+	margin: 0;
+}
+#show .show_center,.show_right{
+	width: 390px;
+}
+#show .show_center,.show_right{
+	width: 200px;
+}
+#show ul{
+	width: 810px;
+	margin-left:15px ;
+}
+#show ul li{
+	width: 390px;
+	margin-right: 10px;
+}
+#show ul li img{
+	width: 390px;
+	height: 225px;
+}
+#wai{
+	width: 1258px;
+	height:280px;
+	position: relative;
+	overflow: hidden;
+}
+.nei ul{
+	padding: 0;
+}
+.nei{
+	position: absolute;
+	width: 20000px;
+}
+.nei ul li img{
+	width: 240px;
+}
+

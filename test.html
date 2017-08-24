@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			#box{
+				width: 200px;
+				height: 200px;
+				background: darkmagenta;
+				 border: 5px solid darkgrey;
+				 z-index: 5;
+			}
+			
+		</style>
+		<script>
+			window.onload=function(){
+			
+				var oBox=document.getElementById("box")
+				//ShowObjProperty(oBox) 
+				
+				var iw=oBox.getAttribute("style")
+				alert(iw)
+			}
+		
+		function ShowObjProperty(Obj) 
+		{ 
+		var PropertyList=''; 
+		var PropertyCount=0; 
+		for(i in Obj){ 
+		if(Obj.i !=null) 
+		PropertyList=PropertyList+i+'属性：'+Obj.i+'\r\n'; 
+		else 
+		PropertyList=PropertyList+i+'方法\r\n'; 
+		} 
+		alert(PropertyList); 
+		} 
+		</script>	
+			
+		
+	</head>
+	<body>
+		<div id="box">
+		</div>
+		<img src="img/banner1.jpg" id="tu"/>
+	</body>
+</html>

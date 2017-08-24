@@ -1,0 +1,15 @@
+body{
+	color: black;
+	background: white;
+}
+#header_wai{
+	width: 100%;
+	height: 123px;
+	background: black;
+}
+#header{
+	background: black;
+}
+#footer{
+	clear:both;
+	}
